@@ -2,6 +2,14 @@
 
 Data Table App display payment log using Vue.js and Vuex to save data to FireBase. 
 
+## Web App ScreenShot
+
+![Web App ScreenShot](/image/screenshot.png)
+
+## Link to the deployed version of your project.
+
+https://payment-log.firebaseapp.com/ - [Data Table App](https://payment-log.firebaseapp.com/)
+
 ## Method and/or Approach
 
 Using Vue.js the following components was built:
