@@ -1,0 +1,25 @@
+{
+    "name": "BUARI BOLA AHMED",
+    "contact":  {
+      "address":  {
+        "street": "5, Buari Street, Ogudu via Ojota",
+        "city": "Lagos",
+        "state": "Lagos",
+        "country": "Nigeria"
+      },
+      "email": "bola_ahmed2002ahoo.com",
+      "phoneNumber": "+234(0)8188894231",
+      "social": {
+        "twitter": "https://twitter.com/bolah2009",
+        "github": "https://github.com/bolah2009/"
+      }
+    },  
+    "gender":		"Male",
+    "dateOfBirth": "1991-10-30T04:57:29-07:00",
+    "MaritalStatus":	"Single",
+    "languages": "English and Yoruba",
+    "programmingLanguages":	["HTML", "CSS", "JavaScript", "React", "Vue", "Webpack", "Sass", "Java", "Node.js", "Python", "SQL"],
+    "computerSoftware":	["Visual Studio Code", "Android Studio", "GitHub", "SharePoint", "Mathematica", "Azure", "AWS", "GitLab", "Firebase"],
+    "methodologies": ["Agile", "Requirements Gathering", "Scrum", "Design Thinking", "Data Management and Analysis", "Unit Testing", "DevOp", "Continuous Integration", "Continuous Delivery", "Continuous Testing", "Configuration Management and Release Management", "Monitoring and Feedback"],
+    "Hobbies": ["Cooking", "Travelling", "learning new things"]
+}

@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for payment-data-table/src/store/mutations.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">payment-data-table/src/store</a> mutations.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">3.57% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>2/56</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/42</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/10</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">3.57% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>2/56</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import axios from "axios";
+&nbsp;
+export default {
+  updateSearch(state, search) {
+<span class="cstat-no" title="statement not covered" >    state.search = search;</span>
+  },
+  editData(state, newDescription) {
+<span class="cstat-no" title="statement not covered" >    state.EditData.Description = newDescription;</span>
+    const descriptionID = <span class="cstat-no" title="statement not covered" >state.EditData.ID;</span>
+    var key;
+    let data = <span class="cstat-no" title="statement not covered" >state.PaymentsData;</span>
+<span class="cstat-no" title="statement not covered" >    for (let i = 0; i &lt; data.length; i++) {</span>
+      let ID = <span class="cstat-no" title="statement not covered" >data[i].ID;</span>
+<span class="cstat-no" title="statement not covered" >      if (ID === descriptionID) {</span>
+<span class="cstat-no" title="statement not covered" >        data[i].Description = newDescription;</span>
+<span class="cstat-no" title="statement not covered" >        key = i;</span>
+      }
+    }
+    const url = <span class="cstat-no" title="statement not covered" >"https://payment-log.firebaseio.com/" + key + ".json";</span>
+<span class="cstat-no" title="statement not covered" >    axios.put(url, state.EditData);</span>
+  },
+&nbsp;
+  getData(state, event) {
+    let data = <span class="cstat-no" title="statement not covered" >[];</span>
+    let target = <span class="cstat-no" title="statement not covered" >event.srcElement || event.target;</span>
+<span class="cstat-no" title="statement not covered" >    while (target &amp;&amp; target.nodeName !== "TR") {</span>
+<span class="cstat-no" title="statement not covered" >      target = target.parentNode;</span>
+    }
+<span class="cstat-no" title="statement not covered" >    if (target) {</span>
+      const cells = <span class="cstat-no" title="statement not covered" >target.getElementsByTagName("td");</span>
+<span class="cstat-no" title="statement not covered" >      for (let i = 0; i &lt; cells.length; i++) {</span>
+<span class="cstat-no" title="statement not covered" >        data.push(cells[i].textContent);</span>
+      }
+    }
+<span class="cstat-no" title="statement not covered" >    for (let i = 0; i &lt; data.length; i++) {</span>
+<span class="cstat-no" title="statement not covered" >      if (state.HeaderData[i] === "Amount") {</span>
+<span class="cstat-no" title="statement not covered" >        state.EditData[state.HeaderData[i]] = data[i].slice(1);</span>
+      } else {
+<span class="cstat-no" title="statement not covered" >        state.EditData[state.HeaderData[i]] = data[i];</span>
+      }
+    }
+  },
+&nbsp;
+  updateFilter(state, filter) {
+    state.filter = filter;
+  },
+&nbsp;
+  SET_PAYMENTS_DATA(state, data) {
+    state.PaymentsData = data;
+  },
+&nbsp;
+  updateSorted(state, value) {
+<span class="cstat-no" title="statement not covered" >    state.sorted = value;</span>
+<span class="cstat-no" title="statement not covered" >    if (value === "id-0") {</span>
+<span class="cstat-no" title="statement not covered" >      state.PaymentsData = state.PaymentsData.sort(</span>
+<span class="fstat-no" title="function not covered" >        (a</span>, b) =&gt; (<span class="cstat-no" title="statement not covered" >a.ID &gt; b.ID ? 1 : -1)</span>
+      );
+    } else <span class="cstat-no" title="statement not covered" >if (value === "id-1") {</span>
+<span class="cstat-no" title="statement not covered" >      state.PaymentsData = state.PaymentsData.sort(</span>
+<span class="fstat-no" title="function not covered" >        (a</span>, b) =&gt; (<span class="cstat-no" title="statement not covered" >a.ID &lt; b.ID ? 1 : -1)</span>
+      );
+    } else <span class="cstat-no" title="statement not covered" >if (value === "name-0") {</span>
+<span class="cstat-no" title="statement not covered" >      state.PaymentsData = state.PaymentsData.sort(</span>
+<span class="fstat-no" title="function not covered" >        (a</span>, b) =&gt; (<span class="cstat-no" title="statement not covered" >a.Name.toUpperCase() &gt; b.Name.toUpperCase() ? 1 : -1)</span>
+      );
+    } else <span class="cstat-no" title="statement not covered" >if (value === "name-1") {</span>
+<span class="cstat-no" title="statement not covered" >      state.PaymentsData = state.PaymentsData.sort(</span>
+<span class="fstat-no" title="function not covered" >        (a</span>, b) =&gt; (<span class="cstat-no" title="statement not covered" >a.Name.toUpperCase() &lt; b.Name.toUpperCase() ? 1 : -1)</span>
+      );
+    } else <span class="cstat-no" title="statement not covered" >if (value === "desc-0") {</span>
+<span class="cstat-no" title="statement not covered" >      state.PaymentsData = state.PaymentsData.sort(</span>
+<span class="fstat-no" title="function not covered" >        (a</span>, b) =&gt;
+<span class="cstat-no" title="statement not covered" >          a.Description.toUpperCase() &gt; b.Description.toUpperCase() ? 1 : -1</span>
+      );
+    } else <span class="cstat-no" title="statement not covered" >if (value === "desc-1") {</span>
+<span class="cstat-no" title="statement not covered" >      state.PaymentsData = state.PaymentsData.sort(</span>
+<span class="fstat-no" title="function not covered" >        (a</span>, b) =&gt;
+<span class="cstat-no" title="statement not covered" >          a.Description.toUpperCase() &lt; b.Description.toUpperCase() ? 1 : -1</span>
+      );
+    } else <span class="cstat-no" title="statement not covered" >if (value === "date-0") {</span>
+<span class="cstat-no" title="statement not covered" >      state.PaymentsData = state.PaymentsData.sort(</span>
+<span class="fstat-no" title="function not covered" >        (b</span>, a) =&gt; <span class="cstat-no" title="statement not covered" >new Date(a.Date) - new Date(b.Date)</span>
+      );
+    } else <span class="cstat-no" title="statement not covered" >if (value === "date-1") {</span>
+<span class="cstat-no" title="statement not covered" >      state.PaymentsData = state.PaymentsData.sort(</span>
+<span class="fstat-no" title="function not covered" >        (a</span>, b) =&gt; <span class="cstat-no" title="statement not covered" >new Date(a.Date) - new Date(b.Date)</span>
+      );
+    } else <span class="cstat-no" title="statement not covered" >if (value === "amount-0") {</span>
+<span class="cstat-no" title="statement not covered" >      state.PaymentsData = state.PaymentsData.sort(</span>
+<span class="fstat-no" title="function not covered" >        (a</span>, b) =&gt; <span class="cstat-no" title="statement not covered" >a.Amount - b.Amount</span>
+      );
+    } else <span class="cstat-no" title="statement not covered" >if (value === "amount-1") {</span>
+<span class="cstat-no" title="statement not covered" >      state.PaymentsData = state.PaymentsData.sort(</span>
+<span class="fstat-no" title="function not covered" >        (b</span>, a) =&gt; <span class="cstat-no" title="statement not covered" >a.Amount - b.Amount</span>
+      );
+    }
+  }
+};
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jan 15 2019 14:43:05 GMT+0100 (W. Central Africa Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>
