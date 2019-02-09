@@ -44,6 +44,4 @@ Spread (...) Function, it's used for destructing and copying array makes it my f
 
 ### What is your favorite third-party Vue.js library? Why?
 
-Vuex is a 'single source of truth' state management pattern and library. The ability to serve as a centralized store for all components in the application makes it my favorite. Using Vuex, there's easy for generating data (using getters) and re-generating data (using getters inside another getter) from generated data. An example is analyzing data generated from
-
-
+Vuex is a 'single source of truth' state management pattern and library. The ability to serve as a centralized store for all components in the application makes it my favorite. Using Vuex, there's easy for generating data (using getters) and re-generating data (using getters inside another getter) from generated data. An example is analyzing data generated from the store.
