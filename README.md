@@ -6,11 +6,11 @@ Data Table App display payment log using Vue.js and Vuex to save data to FireBas
 
 ![Web App ScreenShot](/image/screenshot.png)
 
-## Link to the deployed version of your project.
+## Link to the deployed version.
 
 https://payment-log.firebaseapp.com/ - [Data Table App](https://payment-log.firebaseapp.com/)
 
-## Method and/or Approach
+## Method and Approach
 
 Using Vue.js the following components was built:
 
@@ -30,26 +30,3 @@ The data is arranged by the sorted value provided. The table component is divide
 
 ## Building and Deployment
 The project is deployed to Firebase
-
-
-### How long did you spend on the test? Would you do anything differently if you had more time?
-
-I spent five days on the test. I would have love to add more features particularly in the UX/UI. I also wish I could add more analytical features to the data to generate more insight about the data been displayed.
-
-
-### In what ways would you adapt your component so that it could be used in many different scenarios where a data table is required?
-
-It could be adapted in a table that needs to be sorted and/or filtered. Also it could also be reused where a data table needs to be dynamically displayed as in this app.
-
-### What is your favorite CSS property? Why?
-
-CSS Display: the effective use of the attributes static, sticky, absolute, fixed, block, inline... Can give a better user experience and feature with the excessive use of Javascript.
-
-### What is your favorite modern Javascript feature? Why?
-
-Spread (...) Function, it's used for destructing and copying array makes it my favourite for now.
-
-
-### What is your favorite third-party Vue.js library? Why?
-
-Vuex is a 'single source of truth' state management pattern and library. The ability to serve as a centralized store for all components in the application makes it my favorite. Using Vuex, there's easy for generating data (using getters) and re-generating data (using getters inside another getter) from generated data. An example is analyzing data generated from the store.
